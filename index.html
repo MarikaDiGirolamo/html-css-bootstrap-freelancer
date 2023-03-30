@@ -11,7 +11,7 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-dark navbar-expand-lg">
+            <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand h1" href="#">START BOOTSTRAP</a>
                     <button class="navbar-toogler" type="button" data-bs-toogle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +53,7 @@
                 </div>
             </section>
             <!-- Portfolio Section -->
-            <section class="portfolio boxed_2">
+            <section class="portfolio">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 py-4 text-center">
@@ -96,55 +96,45 @@
                                 <i class="fa-solid fa-star mx-2"></i>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The Download includes the complete source files including HTML, CSS and JacaScript as well as optional LESS stylesheet for easy customization.</p>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <p>Wheter you're a student looking to showcase your work, a porfessinal looking to share your projects, this template is the pergect starting point.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
-
-            <!-- <section class="about d-flex flex-wrap my-5 text-bg-success">
-                <div class="boxed_2 text-center">
-                    <div class="row py-3">
-                        <div class="col-12 py-2">
-                            <h2>ABOUT</h3>
-                        </div>
-                        <div class="row pb-5">
-                            <div class="col-3"></div>
-                            <div class="col-3"><i class="fa-solid fa-star"></i></div>
-                            <div class="col-3"></div>
-                        </div>
-                    <div class="row p-2">
-                        <div class="col-12 text-start p-4 col-md-6">Freelancer is a free bootstrap theme created by Start Bootstrap. The Download includes the complete source files including HTML, CSS and JacaScript as well as optional LESS stylesheet for easy customization.</div>
-                        <div class="col-12 text-start p-4 col-md-6">Wheter you're a student looking to showcase your work, a porfessinal looking to share your projects, this template is the pergect starting point.</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-3">
-                            <button class="btn btn-outline-light m-4"><i class="fa-solid fa-download"></i> Download</button>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
             <!-- Contact me Section -->
             <section class="contact d-flex flex-wrap my-5">
                     <div class="container col-sm-10 col-md-7 col-lg-5">
-                        <form>
-                            <div class="mb-3">
-                                <label for="Name" class="form-label">Name</label>
-                                <input type="email" class="form-control" placeholder="Your Name">
+                        <div class="row">
+                            <div class="col-12">
+                                <form>
+                                    <div class="mb-5">
+                                        <label for="Name" class="form-label">Name</label>
+                                        <input type="Name" class="form-control border-0 border-bottom shadow-none" placeholder="Your Name">
+                                    </div>
+                                    <div class="mb-5">
+                                        <label for="email" class="form-label">Email address</label>
+                                        <input type="email" class="form-control border-0 border-bottom shadow-none" placeholder="name@example.com" required>
+                                    </div>
+                                    <div class="mb-5">
+                                        <label for="PhoneNumber" class="form-label">Phone Number</label>
+                                        <input type="Number" class="form-control border-0 border-bottom shadow-none" placeholder="Phone Number">
+                                    </div>
+                                    <div class="mb-5">
+                                        <p><label for="message" class="form-label">Message</label></p>
+                                        <input type="text" class="form-control border-0 border-bottom shadow-none">
+                                        <textarea name="message" class="form-control border-0 border-bottom" id="message" cols="100" rows="10" placeholder="Write your message"></textarea>
+                                    </div>
+                                    <button type="submit" class="submit_btn btn btn-outline-success">Submit</button>
+                                </form>
                             </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email address</label>
-                                <input type="email" class="form-control" placeholder="name@example.com" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="PhoneNumber" class="form-label">Phone Number</label>
-                                <input type="Number" class="form-control" placeholder="Phone Number">
-                            </div>
-                            <div class="mb-3">
-                                <p><label for="message" class="form-label">Message</label></p>
-                                <textarea name="message" id="message" cols="100" rows="10" placeholder="Write your message"></textarea>
-                            </div>
-                            <button type="submit" class="submit_btn btn btn-outline-success">Submit</button>
-                        </form>
+                        </div>
                     </div>
             </section>
         </main>
@@ -152,7 +142,7 @@
         <footer class="text-bg-dark ">
             <!-- Location/Social/About -->
             <section class="info d-flex flex-wrap text-center ">
-                <div class="boxed_2 py-4">
+                <div class="container py-4">
                     <div class="row">
                         <div class="col-4 ">
                             <h3>LOCATION</h3>
