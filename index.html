@@ -3,20 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
         <link rel="stylesheet" href="./css/style.css">
         <title>Document</title>
     </head>
     <body>
-        <header class="d-flex flex-wrap justify-content-center py-4 text-bg-dark border_debug">
+        <header class="d-flex flex-wrap justify-content-center py-4 text-bg-dark">
             <!-- Navbar e links -->
             <nav class="container-fluid">
                 <div class="row justify-content-between text-left align-items-center">
-                    <div class="col-3 offset-1 border_debug">
-                        <h3>START BOOTSTRAP</h3>
+                    <div class="col-3 offset-1">
+                        <a class="navbar-brand text-center " href="#"><h1>Start Bootstrap</h1></a>
                     </div>
-                    <div class="col-5 border_debug">
+                    <div class="col-3">
                         <div class="row offset-2">
                             <ul class="nav nav-pills">
                                 <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
@@ -39,9 +40,9 @@
                             </div>
                         </div>
                         <div class="row text-center">
-                            <div class="col-3"></div>
-                            <div class="col-3"><i class="fa-solid fa-star"></i></div>
-                            <div class="col-3"></div>
+                            <div class="col-4"></div>
+                            <div class="col-4"><i class="fa-solid fa-star"></i></div>
+                            <div class="col-4"></div>
                         </div>
                         <div class="row flex-wrap text-center">
                             <div class="col-8 offset-2 my-3">
@@ -63,29 +64,29 @@
                         <div class="col-3"></div>
                     </div>
                     <div class="row">
-                        <div class="col-4 pb-3">
+                        <div class="col-12 p-4 col-md-6 col-lg-4 text-center">
                             <img class="img-fluid" src="./img/cabin.png" alt="cabin">
                         </div>
-                        <div class="col-4 pb-3">
+                        <div class="col-12 p-4 col-md-6 col-lg-4 text-center">
                             <img class="img-fluid" src="./img/cake.png" alt="cake">
                         </div>
-                        <div class="col-4 pb-3">
+                        <div class="col-12 p-4 col-md-6 col-lg-4 text-center">
                             <img class="img-fluid" src="./img/circus.png" alt="circus">
                         </div>
-                        <div class="col-4 pb-3">
+                        <div class="col-12 p-4 col-md-6 col-lg-4 text-center">
                             <img class="img-fluid" src="./img/game.png" alt="game">
                         </div>
-                        <div class="col-4 pb-3">
+                        <div class="col-12 p-4 col-md-6 col-lg-4 text-center">
                             <img class="img-fluid" src="./img/safe.png" alt="safe">
                         </div>
-                        <div class="col-4 pb-3">
+                        <div class="col-12 p-4 col-md-6 col-lg-4 text-center">
                             <img class="img-fluid" src="./img/submarine.png" alt="submarine">
                         </div>
                     </div>
                 </div>
             </section>
             <!-- About Section -->
-            <section class="about d-flex flex-wrap my-5 text-bg-success border_debug">
+            <section class="about d-flex flex-wrap my-5 text-bg-success">
                 <div class="boxed_2 text-center">
                     <div class="row py-3">
                         <div class="col-12 py-2">
@@ -96,71 +97,70 @@
                             <div class="col-3"><i class="fa-solid fa-star"></i></div>
                             <div class="col-3"></div>
                         </div>
-                    <div class="row p-2 border_debug">
-                        <div class="col-6 border_debug">Freelancer is a free bootstrap theme created by Start Bootstrap. The Download includes the complete source files including HTML, CSS and JacaScript as well as optional LESS stylesheet for easy customization.</div>
-                        <div class="col-6 border_debug">Wheter you're a student looking to showcase your work, a porfessinal looking to share your projects, this template is the pergect starting point.</div>
+                    <div class="row p-2">
+                        <div class="col-12 text-start p-4 col-md-6">Freelancer is a free bootstrap theme created by Start Bootstrap. The Download includes the complete source files including HTML, CSS and JacaScript as well as optional LESS stylesheet for easy customization.</div>
+                        <div class="col-12 text-start p-4 col-md-6">Wheter you're a student looking to showcase your work, a porfessinal looking to share your projects, this template is the pergect starting point.</div>
                     </div>
                     <div class="row">
-                        <div class="col-2">
-                            <button class="m-4"><i class="fa-solid fa-download"></i> Download</button>
+                        <div class="col-3">
+                            <button class="btn btn-outline-light m-4"><i class="fa-solid fa-download"></i> Download</button>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- Contact me Section -->
-            <section class="contact d-flex flex-wrap my-5 border_debug">
-                <div class="container">
-                    <h2 class="text-center my-3 border_debug">CONTACT ME</h2>
-                    <hr>
-                    <form>
-                        <div class="mb-3">
-                            <label for="Name" class="form-label">Name</label>
-                            <input type="email" class="form-control" placeholder="Your Name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" placeholder="Email">
-                        </div>
-                        <div class="mb-3">
-                            <label for="PhoneNumber" class="form-label">Phone Number</label>
-                            <input type="Number" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <p><label for="message" class="form-label">Message</label></p>
-                            <textarea name="message" id="message" cols="100" rows="10" placeholder="Write your message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+            <section class="contact d-flex flex-wrap my-5">
+                    <div class="container col-sm-10 col-md-7 col-lg-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="Name" class="form-label">Name</label>
+                                <input type="email" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" placeholder="name@example.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="PhoneNumber" class="form-label">Phone Number</label>
+                                <input type="Number" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="mb-3">
+                                <p><label for="message" class="form-label">Message</label></p>
+                                <textarea name="message" id="message" cols="100" rows="10" placeholder="Write your message"></textarea>
+                            </div>
+                            <button type="submit" class="submit_btn btn btn-outline-success">Submit</button>
+                        </form>
+                    </div>
             </section>
         </main>
         
-        <footer class="bg-secondary ">
+        <footer class="text-bg-dark ">
             <!-- Location/Social/About -->
-            <section class="info d-flex flex-wrap text-center my-5 border_debug">
-                <div class="container boxed_2 my-4 border_debug">
-                    <div class="row border_debug">
-                        <div class="col-4 border_debug">
-                            LOCATION
-                            <div class="col-12 border_debug">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit
-                                12345
+            <section class="info d-flex flex-wrap text-center ">
+                <div class="boxed_2 py-4">
+                    <div class="row">
+                        <div class="col-4 ">
+                            <h3>LOCATION</h3>
+                            <div class="col-12 col-md-4">
+                                <p>2215 John Daniel Drive Clark, MO <br> 54243</p>
                             </div>
                         </div>
-                        <div class="col-4 border_debug">
-                            AROUND THE WEB
-                            <div class="12 border_debug">Icone</div>
+                        <div class="col-12 col-md-4">
+                            <h4>AROUND THE WEB</h4>
+                            <a href=""><i class="social-footer fa-brands px-2 text-white fa-facebook-f"></i></a>
+                            <a href=""><i class="social-footer fa-brands px-2 text-white fa-google-plus-g"></i></a>
+                            <a href=""><i class="social-footer fa-brands px-2 text-white fa-twitter"></i></a>
+                            <a href=""><i class="social-footer fa-brands px-2 text-white fa-linkedin-in"></i></a>
                         </div>
-                        <div class="col-4 border_debug">
-                            ABOUT FREELANCER
-                            <div class="col-12 border_debug">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta ab et tempora mollitia 
-                            </div>
+                        <div class="col-12 col-md-4">
+                            <h3>ABOUT FREELANCER</h3>
+                                <p>Freelance s a free to use open source Bootstrap theme created by <a href="#">Start Bootstrap</a></p>
                         </div>
                     </div>
-                    <div class="container py-4 border_debug">
-                        <div class="row border_debug">
-                            <div class="col-12 border_debug">
-                                Copyright Your Website
+                    <div class="container py-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="text-center text-white">&copy; Copyright Your Website 2019</p>
                             </div>
                         </div>
                     </div>
